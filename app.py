@@ -5,7 +5,7 @@ import joblib
 
 
 # Load model dan fitur
-model_data = joblib.load('best_gbm_top10.joblib')
+model_data = joblib.load('best_gbm_model_top10_features')
 model = model_data['model']
 features = model_data['features']
 
