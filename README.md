@@ -59,7 +59,7 @@ Password: book123
 Catatan: Silakan login menggunakan akun di atas untuk mengakses dashboard tugas saya. Selanjutnya, menuju pada bagian **Your Personal Collection**, lalu langsung pilih Dashboard bernama **Jaya Institute Dashboard - Deteksi Dropout**. Dapat mengakses link berikut http://localhost:3000/public/dashboard/c7745e7e-f09a-4f87-b61d-888cd404fe5d dengan cara menjalankan docker desktop terlebih dahulu.
 
 ## Menjalankan Sistem Machine Learning
-Prototype Machine learning ini dapat dijalankan dengan mengakses Streamlit. Prototype ini dapat membantu Tim Akademik Jaya-Jaya Institute untuk melakukan deteksi dini pada setiap Mahasiswa dengan mengisi form yang telah melalui proses pemodelan Machine Learning. Berikut link [prototype](https://sistem-deteksi-dropout-by-kholishfauzan.streamlit.app/).
+Prototype Machine learning ini dapat dijalankan dengan mengakses Streamlit. Prototype ini dapat membantu Tim Akademik Jaya-Jaya Institute untuk melakukan deteksi dini pada setiap Mahasiswa dengan mengisi form yang telah melalui proses pemodelan Machine Learning. Berikut link [prototype](https://sistem-deteksi-dropout-siswa-bykholishfauzan.streamlit.app/).
 
 Aplikasi ini menggunakan model Gradient Boosting Machine (GBM) yang telah dilatih dan fitur-fitur penting diambil dari data mahasiswa menggunakan ***Permutation Feature Importance***. **Permutation Feature Importance (PFI)** dinilai lebih kuat karena mengevaluasi dampak langsung tiap fitur terhadap performa model secara model-agnostic dan bebas bias terhadap skala atau jumlah kategori fitur, sehingga hasil prediksi lebih objektif. Berikut adalah hasil dari pemodelan PFI:
 
